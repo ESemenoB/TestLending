@@ -1,0 +1,321 @@
+body {
+  width: 1366px;
+  margin: 0 auto;
+  background: #ffffff;
+  box-shadow: 0 0 15px #cccccc;
+}
+
+.header {
+  height: 700px;
+  background-color: #e9ded4;
+  background-image: url("/img/main.jpg");
+  margin: 0 auto;
+}
+
+.header-wrapper {
+  width: 542px;
+  height: 444px;
+  padding-top: 124px;
+  padding-left: 72px;
+}
+
+.header-title {
+  font-size: 60px;
+  text-transform: uppercase;
+}
+.header-appeal {
+  font-size: 18px;
+  width: 500px;
+  text-align: center;
+  display: flex;
+}
+
+.button {
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+  border-radius: 66px;
+}
+
+.header-button-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.header-button {
+  width: 165px;
+  height: 32px;
+  padding: 20px 49px;
+  /* background-color: aqua; */
+  display: flex;
+  text-align: center;
+  border: 2px solid #000000;
+}
+
+.button-support {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.running-line {
+  display: flex;
+  height: 60px;
+  /* width: 2335px; */
+  font-size: 22px;
+  color: #ffffff;
+  background-color: #f54932;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.main {
+  width: 1222px;
+  margin: 0 auto;
+}
+
+.main-lecture {
+  display: flex;
+}
+
+.main-lecture-title,
+.main-chess-title {
+  text-transform: uppercase;
+  font-size: 36px;
+  width: 764px;
+  height: 195px;
+}
+
+.main-lecture-title-color,
+.main-chess-title-color {
+  color: #f54932;
+}
+.main-chess {
+  display: flex;
+}
+.main-chess-players {
+  background-color: #e9ded4;
+}
+
+.main-chess-table {
+  font-size: 20px;
+  color: #313131;
+}
+
+th {
+  color: #313131;
+  opacity: 70%;
+  text-align: left;
+}
+
+.main-chess-memo {
+  font-size: 20px;
+  color: #3057a2;
+}
+.del-price {
+  text-decoration-color: red;
+}
+
+.transform-wrapper {
+  height: 130px;
+}
+.transform-title {
+  text-transform: uppercase;
+  font-size: 54px;
+}
+
+.transform-title {
+  width: 806px;
+  height: 130px;
+  margin: 0;
+}
+.transform-source {
+  position: relative;
+  font-size: 20px;
+  color: #3057a2;
+  margin: 0;
+  width: 280px;
+  height: 48px;
+  left: 301px;
+  top: -60px;
+}
+
+.transform-list {
+  display: grid;
+  grid-template-columns: repeat(3, 394px);
+  grid-template-rows: repeat(3, 112px);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  font-size: 20px;
+  padding: 0px;
+}
+
+.transform-item {
+  background-image: url(/img/transform-item-bler.png),
+    url(/img/transform-item-imeg.png);
+  background-size: cover;
+  /* padding-left: 72px; */
+  padding-top: 20px;
+  list-style-type: none;
+  background-color: rgb(236, 228, 212);
+  display: flex;
+  flex-direction: row;
+}
+.transform-item-title {
+  margin: 0px;
+  width: 302px;
+}
+
+.transform-icon {
+  fill: white;
+  margin-left: 20px;
+  margin-right: 16px;
+  width: 36px;
+  height: 36px;
+}
+
+.transform-item-title-big {
+  width: 446px;
+}
+
+.transform-airport-image {
+  position: relative;
+  right: 20px;
+  bottom: 70px;
+}
+.transform-rzd {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.transform-hotel {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.transform-farming {
+  grid-area: 1 / 3 / 3 / 4;
+}
+.transform-palace {
+  grid-area: 2 / 1 / 3 / 2;
+}
+.transform-garage {
+  grid-area: 2 / 2 / 3 / 3;
+}
+.transform-radio {
+  grid-area: 3 / 1 / 4 / 2;
+}
+.transform-airport {
+  grid-area: 3 / 2 / 4 / 4;
+}
+/* .div8 {
+  grid-area: 1 / 1 / 2 / 2;
+} */
+
+.footer {
+  background-color: #e9ded4;
+  margin: 0px;
+}
+
+.footer-wrapper {
+  width: 1222px;
+  margin: 0px auto;
+  padding-top: 40px;
+  padding-bottom: 72px;
+  padding-left: 72px;
+  padding-right: 72px;
+}
+
+.footer-memo {
+  margin: 0px;
+  font-size: 16px;
+  color: rgb(49 49 49 / 60%);
+}
+
+.player-wrapper {
+  width: 1222px;
+}
+
+.player-icon {
+  width: 44px;
+  height: 44px;
+}
+
+.player-title {
+  font-size: 54px;
+  text-transform: uppercase;
+}
+
+.player-title-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.player-title {
+  margin: 0;
+}
+.player-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0px;
+}
+
+.player-item {
+  width: 394px;
+  height: 462px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.player-button {
+  width: 113px;
+  height: 35px;
+  color: #3057a2;
+  border: 2px solid #3057a2;
+  text-align: center;
+  padding: 12px;
+}
+
+.player-avatar {
+  margin: 0 auto;
+}
+
+.player-name {
+  font-size: 24px;
+  text-align: center;
+}
+
+.player-description {
+  font-size: 20px;
+  color: #313131;
+}
+
+/* agflkasdlkgfsdl; */
+
+.marquee-content {
+  animation: marquee 20s linear infinite;
+}
+
+.marquee-content::before {
+  content: "Дело помощи утопающим - Дело рук самих утопающих!  •  Шахматы двигают вперёд не только культуру, но и экономику!  •  Лёд тронулся, господа присяжные заседатели!  • ";
+  white-space: nowrap;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
