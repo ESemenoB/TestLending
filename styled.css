@@ -2,14 +2,14 @@
   font-family: "Merrieweather";
   font-style: normal;
   src: local("Merrieweather"),
-    url("/fonts/merriweatherregular.woff2") format("woff2"),
-    url("/fonts/merriweatherregular.woff") format("woff");
+    url("./fonts/merriweatherregular.woff2") format("woff2"),
+    url("./fonts/merriweatherregular.woff") format("woff");
 }
 
 @font-face {
   font-family: "Golostext";
   font-style: normal;
-  src: local("Golostext"), url("/fonts/GolosText-Regular.ttf");
+  src: local("Golostext"), url("./fonts/GolosText-Regular.ttf");
 }
 
 body {
@@ -34,7 +34,7 @@ body {
 .header {
   height: 700px;
   background-color: #e9ded4;
-  background-image: url("/img/main-background.jpg");
+  background-image: url("../img/main-background.jpg");
   margin: 0 auto;
 }
 
