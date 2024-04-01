@@ -32,9 +32,11 @@ body {
 }
 
 .header {
+  width: 1366px;
   height: 700px;
   background-color: #e9ded4;
   background-image: url(./img/main-background.jpg);
+  background-size: contain;
   margin: 0 auto;
 }
 
@@ -44,6 +46,7 @@ body {
     height: 812px;
     background-color: #e9ded4;
     background-image: url(./img/main-background-mobile.jpg);
+    background-size: contain;
   }
 }
 
