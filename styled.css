@@ -642,7 +642,7 @@ body {
 }
 
 .player-avatar {
-  background-image: url(/img/avatar-image.png);
+  background-image: url(./img/avatar-image.png);
   background-size: 320px 320px;
   width: 394px;
   height: 350px;
@@ -656,7 +656,7 @@ body {
     width: 244px;
     height: 244px;
     margin: 0px 45px 30px 45px;
-    background-image: url(/img/avatar-image.png);
+    background-image: url(./img/avatar-image.png);
     background-position: center;
     background-size: 244px 244px;
   }
