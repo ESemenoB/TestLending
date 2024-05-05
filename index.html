@@ -4,32 +4,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Тестовый лендинг</title>
+  <title>Клуб четырех коней</title>
   <link rel="preload" href="./fonts/merriweatherregular.woff2" as="font">
   <link rel="preload" href="./fonts/merriweatherregular.woff" as="font">
   <link rel="preload" href="./fonts/GolosText-Regular.ttf" as="font">
-
-
+  <link rel="icon" type="image/png" sizes="32x32" href="img/icon.ico">
   <link rel="stylesheet" href="./styled.css">
 </head>
 
 <body>
   <header class="header">
     <div class="header-wrapper">
+      <a class="header-logo" href="">
+        <picture>
+          <source srcset="./img/logo.webp" width="213" height="32" alt="Логотип" media="(max-width: 375px)">
+          <img src="./img/logo.webp" width="245" height="36" alt="Логотип">
+        </picture>
+      </a>
       <h1 class="header-title">
         Превратите уездный город
+        <span class="header-title-modifier">в столицу<span class="header-title-align">земного шара</span></span>
       </h1>
-      <h1 class="header-title header-title_modifier">
-        в столицу земного шара
-      </h1>
-
       <div class="header-appeal">
-        Оплатите взнос на телеграммы <br class="header-appeal-br"> для организации Международного
+        Оплатите взнос на телеграммы для&nbspорганизации Международного
         васюкинского турнира по шахматам
       </div>
       <div class="header-button-wrapper">
-        <a href="#p1" class="header-button button-support button">Поддержать шахматную мысль</a>
-        <a href="#p2" class="header-button button-detailed button">Подробнее <br>о турнире</a>
+        <a href="#support" class="header-button button-support button">Поддержать шахматную мысль</a>
+        <a href="#more" class="header-button button-detailed button">Подробнее о&nbsp;турнире</a>
       </div>
     </div>
   </header>
@@ -40,138 +42,103 @@
       Лёд тронулся, господа присяжные заседатели! •
     </div>
   </aside>
-
   <main class="main">
     <article class="main-lecture">
       <h2 class="visually-hidden">Поддержи турнир</h2>
-
-      <span class="main-lecture-title" id="p1">Чтобы поддержать <br>
-        Мeждународный Васюкинский турнир
-        <span class="main-lecture-mobile">
-          <img class="main-chess-players-mobile" src="./img/many-players-mobile.jpg" width="335" height="213"
-            alt="Игроки в шахматы">
-        </span> посетите лекцию на тему:
-        <span class="main-lecture-title-color">«Плодотворная дебютная идея»</span>
+      <span class="main-titel main-support" id="support">Чтобы поддержать Международный васюкинский турнир
       </span>
-      <img class="main-chess-mobile" src="./img/main-chess-mobile.jpg" width="335" height="402" alt="Игроки в шахматы">
-
-      <img class="main-chess-players" src="./img/many-players.jpg" width="394" height="250" alt="Игроки в шахматы">
+      <span class="main-titel main-lecture-topic" id="p1">посетите лекцию на тему:
+      </span>
+      <span class="main-titel main-idea main-title-color">«Плодотворная дебютная идея»</span>
+      <picture class="main-players">
+        <source srcset="./img/many-players.webp" width="335" height="212.56" alt="Игроки в шахматы"
+          media="(max-width: 375px)">
+        <img src="./img/many-players.webp" width="394" height="250" alt="Игроки в шахматы">
+      </picture>
     </article>
     <div class="main-chess">
-      <img class="main-players" src="./img/main-chess.jpg" width="524" height="577" alt="Одновременная игра в шахматы">
-      <div>
-        <span class="main-chess-title" id="p2">И сеанс
-          <span class="main-chess-title-color">одновременной игры <br> в шахматы на 160 досках</span>
-          гроссмейстера <br>О. Бендера
-        </span>
-        <div class="main-chess-table">
-          <div class="main-chess-wrapper">
-
-            <p class="main-chess-item main-chess-small main-chess-line">Местро проведения:</p>
-            <p class="main-chess-item main-chess-big main-chess-line">Клуб «Картонажник»</p>
-            <p class="main-chess-item main-chess-small main-chess-line">Дата и время мероприятия:</p>
-            <p class="main-chess-item main-chess-big main-chess-line"><time datetime="1927-06-22 18:00">22 июня 1927
-                г. в
-                18:00</time></p>
-            <p class="main-chess-item main-chess-small main-chess-line">Стоимость входных билетов:</p>
-            <p class="main-chess-item main-chess-big main-chess-line">20 коп.</p>
-
-            <p class="main-chess-item main-chess-small main-chess-plata main-chess-line">Плата за игру:</p>
-            <p class="main-chess-item main-chess-big main-chess-plata main-chess-line">50 коп.</p>
-            <p class="main-chess-item main-chess-small ">Взнос на телеграммы:</p>
-            <p class="main-chess-item main-chess-big"><del class="del-price">100 руб.</del>
-              &nbsp; 21 руб. 16 коп.</p>
-          </div>
+      <picture class="main-chess-image">
+        <source srcset="./img/main-chess-small.webp" alt="Одновременная игра в шахматы" media="(max-width: 375px)">
+        <img src="./img/main-chess-large.webp" alt="Одновременная игра в шахматы">
+      </picture>
+      <span class="main-titel main-session" id="more">И сеанс
+        <sapn class="main-titel main-title-color">одновременной игры в шахматы на 160 досках</sapn>
+        гроссмейстера О.&nbsp;Бендера
+      </span>
+      <div class="main-chess-table">
+        <div class="main-chess-wrapper">
+          <dt class="main-chess-item main-chess-small main-chess-line">Место проведения:</dt>
+          <dd class="main-chess-item main-chess-big main-chess-line">Клуб «Картонажник»</dd>
+          <dt class="main-chess-item main-chess-small main-chess-line">Дата и время мероприятия:</dt>
+          <dd class="main-chess-item main-chess-big main-chess-line"><time datetime="1927-06-22 18:00">22 июня 1927
+              г. в
+              18:00</time></dd>
+          <dt class="main-chess-item main-chess-small main-chess-line">Стоимость входных билетов:</dt>
+          <dd class="main-chess-item main-chess-big main-chess-line">20 коп.</dd>
+          <dt class="main-chess-item main-chess-small main-chess-plata main-chess-line">Плата за игру:</dt>
+          <dd class="main-chess-item main-chess-big main-chess-plata main-chess-line">50 коп.</dd>
+          <dt class="main-chess-item main-chess-small ">Взнос на телеграммы:</dt>
+          <dd class="main-chess-item main-chess-big"><del class="del-price">100 руб.</del>
+            &nbsp; 21 руб. 16 коп.</dd>
         </div>
-
-        <span class="main-chess-memo">По всем вопросам обращаться <br> в администрацию к К. Михельсону</span>
+        <hr>
       </div>
+      <span class="main-chess-memo">По всем вопросам обращаться в&nbsp;администрацию к К. Михельсону</span>
     </div>
     <section class="transform">
       <div class="transform-wrapper">
         <h2 class="transform-title">Этапы преображения Васюков</h2>
         <p class="transform-source">
-          Будущие источники <br>
-          обогащения васюкинцев
+          Будущие источники обогащения васюкинцев
         </p>
       </div>
       <div class="slider-container">
-        <div class="slider">
+        <ol class="slider">
           <div class="slide transform-item slide-rzd-hotel">
-            <div class="slide-item slide-item_rzd">
-              <a>
-                <svg class="transform-icon">
-                  <use xlink:href="./img/svg-sprite.svg#icon-1"></use>
-                </svg>
-              </a>
+            <li class="slide-item slide-item_rzd">
+              <p class="slide-number">1</p>
               <p class="transform-item-title">Строительство железнодорожной магистрали
                 Москва-Васюки</p>
-            </div>
-            <div class="slide-item slide-item_hotel">
-              <a>
-                <svg class="transform-icon">
-                  <use xlink:href="./img/svg-sprite.svg#icon-2"></use>
-                </svg>
-              </a>
+            </li>
+            <li class="slide-item slide-item_hotel">
+              <p class="slide-number">2</p>
               <p class="transform-item-title">Открытие фешенебельной гостиницы «Проходная пешка» и других небоскрёбов
               </p>
-            </div>
+            </li>
           </div>
           <div class="slide transform-item slide-farming">
-            <div class="slide-item slide-item-farming">
-              <a>
-                <svg class="transform-icon">
-                  <use xlink:href="./img/svg-sprite.svg#icon-3"></use>
-                </svg>
-              </a>
-              <p class="transform-item-title">Поднятие сельского хозяйства в радиусе на тысячу километров: производство
-                овощей, фруктов, икры, шоколадных конфет</p>
-            </div>
+            <li class="slide-item slide-item-farming">
+              <p class="slide-number">3</p>
+              <p class="transform-item-title">Поднятие сельского хозяйства в радиусе на тысячу километров:
+                производство овощей, фруктов, икры, шоколадных конфет</p>
+            </li>
           </div>
           <div class="slide transform-item slide-palace-garage">
-            <div class="slide-item slide-item-palace">
-              <a>
-                <svg class="transform-icon">
-                  <use xlink:href="./img/svg-sprite.svg#icon-4"></use>
-                </svg>
-              </a>
-              <p class="transform-item-title">Строительство дворца <br> для турнира</p>
-            </div>
-            <div class="slide-item slide-item-garage">
-              <a>
-                <svg class="transform-icon">
-                  <use xlink:href="./img/svg-sprite.svg#icon-5"></use>
-                </svg>
-              </a>
-              <p class="transform-item-title">Размещение гаражей <br> для гостевого <br> автотранспорта</p>
-            </div>
-
+            <li class="slide-item slide-item-palace">
+              <p class="slide-number">4</p>
+              <p class="transform-item-title">Строительство дворца для&nbspтурнира</p>
+            </li>
+            <li class="slide-item slide-item-garage">
+              <p class="slide-number">5</p>
+              <p class="transform-item-title">Размещение гаражей для&nbspгостевого автотранспорта</p>
+            </li>
           </div>
           <div class="slide  transform-item  slide-radio">
-            <div class="slide-item slide-item-radio">
-              <a>
-                <svg class="transform-icon">
-                  <use xlink:href="./img/svg-sprite.svg#icon-6"></use>
-                </svg>
-              </a>
+            <li class="slide-item slide-item-radio">
+              <p class="slide-number">6</p>
               <p class="transform-item-title">Постройка сверхмощной радиостанции для передачи всему миру сенсационных
                 результатов</p>
-            </div>
+            </li>
           </div>
           <div class="slide transform-item slide-airport">
-            <div class="slide-item slide-item-airport">
-              <a>
-                <svg class="transform-icon">
-                  <use xlink:href="./img/svg-sprite.svg#icon-7"></use>
-                </svg>
-              </a>
-              <p class="transform-item-title transform-item-title-big">Создание аэропорта «Большие Васюки» <br>с
-                регулярным отправлением почтовых самолётов и дирижаблей во все концы света, включая Лос-Анжелос <br>и
-                Мельбурн</p>
-            </div>
+            <li class="slide-item slide-item-airport">
+              <p class="slide-number">7</p>
+              <p class="transform-item-title transform-item-title-big">Создание аэропорта «Большие Васюки»
+                с&nbspрегулярным отправлением почтовых самолётов и дирижаблей во все концы света, включая Лос-Анжелос
+                и&nbspМельбурн</p>
+            </li>
           </div>
-
-        </div>
+        </ol>
         <div class="wrapper">
           <button class="prev-btn transform-button-prev" onclick="prevSlide()">
             <svg class="player-icon">
@@ -185,12 +152,10 @@
             </svg>
           </button>
         </div>
-        <img class="slide-airport-image" src="./img/transform-airport-image.png" width="400" height="230"
-          alt="Изображение самолета">
-
+        <div class="slide-airport-image">
+        </div>
       </div>
     </section>
-
     <section class="player">
       <div class="player-wrapper">
         <h2 class="player-title">Участники турнира</h2>
@@ -203,7 +168,6 @@
           <div class="player-counter-wrapper">
             <span class="player-counter">3</span>
             <span class="player-counter-all">/ 6</span>
-
           </div>
           <button class="player-button-next button-carousel" type="button" aria-label="Следующий игрок">
             <svg class="player-icon">
@@ -213,43 +177,37 @@
         </div>
         <ul class="player-list">
           <li class="player-item">
-            <div class="player-avatar">
-            </div>
+            <div class="player-avatar"></div>
             <span class="player-name">Хозе-Рауль Капабланка</span>
             <p class="player-description">Чемпион мира по шахматам</p>
             <a class="player-button button" href="">Подробнее</a>
           </li>
           <li class="player-item">
-            <div class="player-avatar">
-            </div>
+            <div class="player-avatar"></div>
             <span class="player-name">Эммануил Ласкер</span>
             <p class="player-description">Чемпион мира по шахматам</p>
             <a class="player-button button" href="">Подробнее</a>
           </li>
           <li class="player-item">
-            <div class="player-avatar">
-            </div>
+            <div class="player-avatar"></div>
             <span class="player-name">Александр Алехин</span>
             <p class="player-description">Чемпион мира по шахматам</p>
             <a class="player-button button" href="">Подробнее</a>
           </li>
           <li class="player-item">
-            <div class="player-avatar">
-            </div>
+            <div class="player-avatar"></div>
             <span class="player-name">Арон Нимцович</span>
             <p class="player-description">Чемпион мира по шахматам</p>
             <a class="player-button button" href="">Подробнее</a>
           </li>
           <li class="player-item">
-            <div class="player-avatar">
-            </div>
+            <div class="player-avatar"></div>
             <span class="player-name">Рихард Рети</span>
             <p class="player-description">Чемпион мира по шахматам</p>
             <a class="player-button button" href="">Подробнее</a>
           </li>
           <li class="player-item">
-            <div class="player-avatar">
-            </div>
+            <div class="player-avatar"></div>
             <span class="player-name">Остап Бендер</span>
             <p class="player-description">Чемпион мира по шахматам</p>
             <a class="player-button button" href="">Подробнее</a>
@@ -272,8 +230,6 @@
         познакомиться в главе XXXIV романа Ильи Ильфа и Евгения Петрова «Двенадцать стульев». </p>
     </div>
   </footer>
-
-
   <script src="script.js"></script>
 </body>
 

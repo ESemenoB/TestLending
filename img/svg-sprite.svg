@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
   
-  <symbol id="icon-1" viewBox="0 0 36 36" >
+  <!-- <symbol id="icon-1" viewBox="0 0 36 36" >
               <rect width="36" height="36" rx="18" />
               <path d="M12.9 25V22.52H16.1V14.04L12.9 16.32V13.4L16.28 11H19.1V22.52H21.7V25H12.9Z" fill="#313131" />
 
@@ -38,7 +38,7 @@
 
 <symbol id="icon-7" viewBox="0 0 36 36">
               <rect width="36" height="36" rx="18" />
-              <path d="M14.42 25L19.14 13.48H12.4V11H22.18V13.18L17.6 25H14.42Z" fill="#313131" />
+              <path d="M14.42 25L19.14 13.48H12.4V11H22.18V13.18L17.6 25H14.42Z" fill="#313131" /> -->
 
 <symbol id="button-prev" viewBox="0 0 44 44">
               <circle cx="22" cy="22" r="22" transform="rotate(-180 22 22)" />
